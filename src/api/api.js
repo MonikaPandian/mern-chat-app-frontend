@@ -1,0 +1,1 @@
+export const api_url = 'https://mern-chat-app-backend-three.vercel.app';
