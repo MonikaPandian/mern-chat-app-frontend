@@ -40,7 +40,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     }
 
     useEffect(() => {
-        socket = io("https://mern-chat-app-backend-three.vercel.app");
+        socket = io("https://mern-chat-app-backend-d16q.onrender.com");
         socket.emit("setup", user);
         socket.on("connected", () => setSocketConnected(true));
         socket.on('typing', () => setIsTyping(true));
